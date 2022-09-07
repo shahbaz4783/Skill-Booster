@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Skill Booster</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Ubuntu&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro&family=Ubuntu&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="icon" href="resources/logo.png">
+</head>
+
+<body>
+
+    <header class="header">
+        <div class="logo">
+            <img src="resources/logo.png" alt="Skill Booster">
+        </div>
+
+        <div class="navigation">
+            <ul class="navbar">
+                <li><a href="#cont" id="course">Courses</a></li>
+                <input type="text" name="search" id="search" placeholder="Search for anything">
+                <li><a href="#story" id="stories">Stories</a></li>
+                <li><a href="#contact" id="contacts">Contact</a></li>
+            </ul>
+
+            <div class="socials">
+                <a href="https://twitter.com/shahbaz4783" target="_blank" class="fa fa-twitter"></a>
+                <a href="https://www.linkedin.com/in/shahbaz-ansari-18ab01206/" target="_blank" class="fa fa-linkedin"></a>
+                <a href="https://github.com/shahbaz4783" target="_blank" class="fa fa-github"></a>
+                <a href="https://www.facebook.com/profile.php?id=100059595619871" target="_blank" class="fa fa-facebook"></a>
+            </div>
+    </header>
+
+    <img src="resources/main.png" class="mainimg" alt="">
+
+    <h1 class="mainhead">A Platform Which Values Success</h1>
+    <button class="coursebtn"> <a href="#cont">FIND THE PERFECT COURSE</a></button>
+
+    <section class="section">
+        <h3 class="secbox">Professional Courses</h3>
+        <h3 class="secbox">Live Sessions</h3>
+        <h3 class="secbox">Top Teachers</h3>
+    </section>
+
+
+    <div class="container" id="cont">
+        <h1>OUR COURSES</h1>
+        <h3 class="box" id="cs">CYBER SECURITY
+            <button class="enroll">Details</a></button>
+        </h3>
+        <h3 class="box" id="wd">WEB DEVELOPMENT
+            <button class="enroll">Details</button>
+        </h3>
+        <h3 class="box" id="ai">ARTIFICIAL INTELLIGENCE
+            <button class="enroll">Details</button>
+        </h3>
+        <h3 class="box" id="ds">DATA SCIENCE
+            <button class="enroll">Details</button>
+        </h3>
+        <h3 class="box" id="dm">DIGITAL MARKETING
+            <button class="enroll">Details</button>
+        </h3>
+        <h3 class="box" id="gd">GAME DEVELOPMENT
+            <button class="enroll">Details</button>
+        </h3>
+        <h3 class="box" id="anmi">3D ANIMANTION
+            <button class="enroll">Details</button>
+        </h3>
+        <h3 class="box" id="app">APP DEVELOPMENT
+            <button class="enroll">Details</button>
+        </h3>
+        <h3 class="box" id="graphic">GRAPHIC DESIGN
+            <button class="enroll">Details</button>
+        </h3>
+    </div>
+
+
+    <article class="article" id="story">
+        <h1>Stories</h1>
+       <div class="collage" id="im1"></div>
+       <div class="collage" id="im2"></div>
+       <div class="collage" id="im3"></div>
+       <div class="collage" id="im4"></div>
+       <div class="collage" id="im5"></div>
+       <div class="collage" id="im6"></div>
+       <div class="collage" id="im7"></div>
+       <div class="collage" id="im8"></div>
+       <div class="collage" id="im9"></div>
+       <div class="collage" id="im10"></div>
+       <div class="collage" id="im11"></div>
+       <div class="collage" id="im12"></div>
+    </article>
+
+
+    <form action="backend.php" class="form" id="contact">
+        <h1>Contact Us</h1><hr>
+
+<div class="ftb">
+        <label for="name">Name</label><br>
+        <input type="text" name="myName" id="name" class="formbox" placeholder="Richards Andserson">
+</div>
+
+<div class="ftb">
+        <label for="email">Email</label><br>
+        <input type="email" name="myEmail" id="email" class="formbox" placeholder="example@youremail.com">
+</div>
+
+<div class="ftb">
+        <label for="phone">Phone No.</label><br>
+        <input type="tel" name="myPhone" id="phone" class="formbox" placeholder="(+91) 8409174824" required>
+</div>
+
+<div class="ftb">
+        <label for="subject">Course</label><br>
+        <select name="myPhone" id="subject" class="formbox" required>
+            <option disabled selected>Select Your Course</option>
+            <option>Cyber Security</option>
+            <option>Web Development</option>
+            <option>App Development</option>
+            <option>Game Development</option>
+            <option>Graphic Design</option>
+            <option>3D Animation</option>
+            <option>Data Science</option>
+            <option>Artificial Intelligence</option>
+            <option>Digital Marketing</option>
+        </select>
+
+</div>
+
+<div class="submitnow">
+        <label for="submit"></label><br>
+        <input type="submit" value="Send Message" name="completed" id="submit">
+</div>
+
+    </form>
+    
+</body>
+
+</html>
