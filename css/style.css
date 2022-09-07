@@ -320,7 +320,7 @@ body{
 }
 
 #im3{
-    background-image: resources/img3.jpg;
+    background-image: (resources/img3.jpg);
     background-repeat: no-repeat;
     background-size: contain;
 }
