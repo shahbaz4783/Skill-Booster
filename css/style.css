@@ -308,7 +308,7 @@ body{
 }
 
 #im1{
-    background-image: resources/img1.jpg;
+    background-image: url(resources/img1.jpg);
     background-repeat: no-repeat;
     background-size: contain;
 }
@@ -320,13 +320,13 @@ body{
 }
 
 #im3{
-    background-image:url("resources/img3.jpg");
+    background-image: url("resources/img3.jpg");
     background-repeat: no-repeat;
     background-size: contain;
 }
 
 #im4{
-    background-image: url('resources/img4.jpg');
+    background-image: url(resources/img4.jpg);
     background-repeat: no-repeat;
     background-size: contain;
 }
