@@ -314,13 +314,13 @@ body{
 }
 
 #im2{
-    background-image: url("resources/img2".jpg);
+    background-image: url(resources/img2.jpg);
     background-repeat: no-repeat;
     background-size: contain;
 }
 
 #im3{
-    background-image: url("resources/img3.jpg");
+    background-image: url(resources/img3.jpg);
     background-repeat: no-repeat;
     background-size: contain;
 }
